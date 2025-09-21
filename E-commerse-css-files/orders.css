@@ -1,0 +1,176 @@
+body{
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:80px;
+}
+@media (max-width:500px){
+  body{
+    padding-top:150px;
+  }
+}
+.image-containerd{
+  border:none;
+  padding:15px;
+  width:100px;
+  height:100px;
+  background-color:white;
+}
+.image-containerd img{
+  height:100%;
+  width:100%;
+}
+.order-container{
+  margin:auto;
+  max-width:900px;
+  border:1px solid white;
+  padding:20px;
+}
+.your-orders{
+  color:white;
+  font-size:30px;
+}
+.order-details{
+  display:flex;
+  flex-direction:column;
+  row-gap:20px;
+  border:1px solid white;
+  border-top:none;
+  padding:30px;
+  background-color:white;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.orders-header{
+  color:white;
+  background-color:rgb(10, 158, 168);
+  margin-top:20px;
+  padding:13px;
+  height:30px;
+  display:flex;
+  flex-direction:row;
+  column-gap:20px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;;
+}
+.order-header{
+  overflow:hidden;
+  padding-bottom:26px;
+  font-size:20px;
+  color:white;
+  margin-top:5px;
+  margin-left:20px;
+}
+
+.order-header:hover{
+  border-bottom:3px solid red;
+}
+.order-header.active{
+  border-bottom:3px solid rgb(128, 0, 60);
+}
+.details-header{
+  overflow:hidden;
+  padding:0px;
+  font-size:20px;
+  color:black;
+  border-bottom:3px solid red;
+}
+.order-description{
+  display:flex;
+  flex-direction:row;
+  column-gap:30px;
+  align-items:center;
+}
+.ord{
+  display:flex;
+  flex-direction:column;
+  row-gap:10px;
+}
+.name{
+  margin-bottom:5px;
+}
+.product-quantity{
+  color:rgb(183, 0, 255);
+  font-size:17px;
+  margin-bottom:5px;
+}
+.quant{
+  color:rgb(0, 81, 128);
+}
+.buy-again-button{
+  padding:10px;
+  border:none;
+  color:white;
+  background-color:rgb(10, 99, 99);
+  border-radius:10px;
+}
+.track-package{
+  padding:10px;
+  border:none;
+  color:white;
+  background-color:rgb(207, 97, 97);
+  border-radius:10px;
+}
+.buy-again-button:hover, .track-package:hover{
+  opacity:0.9;
+}
+.buy-again-button:active, .track-package:active{
+  opacity:0.7;
+}
+.but{
+  display:flex;
+  flex-direction:row;
+  column-gap:10px;
+}
+.order-option{
+  font-size:17px;
+  display:flex;
+  flex-direction:column;
+  row-gap:2px;
+  display:none;
+  margin-top:17px;
+}
+.input1, .input3{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.for{
+  color:rgb(68, 4, 4);
+}
+.placed{
+  color:green;
+  margin-bottom:10px;
+}
+.sl-div{
+  position:absolute;
+  top:10;
+  display:flex;
+  flex-direction:column;
+  row-gap:4px;
+  border:none;
+  background-color:rgb(44, 30, 30);
+  padding:4px;
+  width:60px;
+  visibility:hidden;
+}
+.firsts{
+  border:none;
+  background-color:transparent;
+  color:white;
+  padding:10px;
+  border-radius:10px;
+  border:none;
+  margin-bottom:2px;
+  margin-top:2px;
+  margin-right:0px;
+}
+.seconds{
+  border:none;
+  background-color:transparent;
+  color:white;
+  padding:8px 0px;
+  border-radius:10px;
+  border:none;
+}
+.t{
+  color:green;
+}
