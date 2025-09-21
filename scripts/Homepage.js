@@ -76,7 +76,7 @@ document.querySelectorAll('.js-add-to-cart').forEach((button)=>{
 })
 document.querySelector('.js-search-button').addEventListener('click', ()=>{
   const input=document.querySelector('.input1').value;
-  window.location.href=`Homepage.html?search=${input}`;
+  window.location.href=`index.html?search=${input}`;
 });
 document.querySelector('.input1').addEventListener('keydown', (event)=>{
   if (event.key==='Enter'){
@@ -85,7 +85,7 @@ document.querySelector('.input1').addEventListener('keydown', (event)=>{
 });
 document.querySelector('.search-button3').addEventListener('click', ()=>{
   const input=document.querySelector('.input3').value;
-  window.location.href=`Homepage.html?search=${input}`;
+  window.location.href=`index.html?search=${input}`;
 });
 document.querySelector('.input3').addEventListener('keydown', (event)=>{
   if (event.key==='Enter'){
